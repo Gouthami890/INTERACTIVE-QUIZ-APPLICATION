@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Quiz</title>    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header" class="container">
+        <h1 class="header">Quiz</h1>   
+        <h2>Answer the following multiple choice questions</h2>       
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What does HTML stand for?</p>
+                <input type="radio" id="q1a" name="question1" value="a"><label for="q1a">Hyper Text Markup Language</label><br>
+                <input type="radio" id="q1b" name="question1" value="b"><label for="q1b">Hyperlinks and Text Markup Language</label><br>
+                <input type="radio" id="q1c" name="question1" value="c"><label for="q1c">High Text Markup Language</label><br>
+                <input type="radio" id="q1d" name="question1" value="d"><label for="q1d">None of the above</label><br>
+            </div>
+            <div class="question">
+                <p>2. What does CSS stand for?</p>
+                <input type="radio" id="q2a" name="question2" value="a"><label for="q2a">Cascading Style Sheets</label><br>
+                <input type="radio" id="q2b" name="question2" value="b"><label for="q2b">Colorful Style Sheets</label><br>
+                <input type="radio" id="q2c" name="question2" value="c"><label for="q2c">Creative Style Sheets</label><br>
+                <input type="radio" id="q2d" name="question2" value="d"><label for="q2d">Computer Style Sheets</label><br>
+            </div>
+            <div class="question">
+                <p>3. Which HTML attribute is used to define inline styles?</p>
+                <input type="radio" id="q3a" name="question3" value="a"><label for="q3a">class</label><br>
+                <input type="radio" id="q3b" name="question3" value="b"><label for="q3b">font</label><br>
+                <input type="radio" id="q3c" name="question3" value="c"><label for="q3c">style</label><br>
+                <input type="radio" id="q3d" name="question3" value="d"><label for="q3d">styles</label><br>
+            </div>
+            <div class="question">
+                <p>4. Which is the correct CSS syntax?</p>
+                <input type="radio" id="q4a" name="question4" value="a"><label for="q4a">{body:color=black;}</label><br>
+                <input type="radio" id="q4b" name="question4" value="b"><label for="q4b">body:color=black;</label><br>
+                <input type="radio" id="q4c" name="question4" value="c"><label for="q4c">body {color: black;}</label><br>
+                <input type="radio" id="q4d" name="question4" value="d"><label for="q4d">{body;color:black;}</label><br>
+            </div>
+            <div class="question">
+                <p>5. How do you insert a comment in a CSS file?</p>
+                <input type="radio" id="q5a" name="question5" value="a"><label for="q5a">// this is a comment</label><br>
+                <input type="radio" id="q5b" name="question5" value="b"><label for="q5b">/* this is a comment */</label><br>
+                <input type="radio" id="q5c" name="question5" value="c"><label for="q5c">/<!-- this is a comment -->/</label><br>
+                <input type="radio" id="q5d" name="question5" value="d"><label for="q5d">** this is a comment **</label><br>
+            </div>
+            
+            <button id="button" type="submit" class="button">Submit</button>
+        </form>
+
+        <div id="score" class="result">
+            <h2>Result</h2>
+            <p id="score-text"></p>
+        </div>
+            
+            
+    </div>
+</body>
+</html>
