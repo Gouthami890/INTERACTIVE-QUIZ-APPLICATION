@@ -25,3 +25,6 @@ Description:
 "Test your front-end skills with this quiz app, built using HTML, CSS, and JavaScript in VS Code.  This app is designed to help developers and learners assess their skills and identify areas for improvement.
 
 The quiz app covers a range of topics, including HTML structure, CSS styling, and JavaScript functionality. With a user-friendly interface and clear instructions, it's easy to get started and begin testing your knowledge.
+
+*output*:
+![Image](https://github.com/user-attachments/assets/6ec04c69-eb9e-4e42-b76f-b7390a518367)
